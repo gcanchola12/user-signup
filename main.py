@@ -19,8 +19,6 @@ def valid_input():
     verify = request.form['verify']
     email = request.form['email']
 
-    penis = 0
-
     username_error = ''
     password_error = ''
     verify_error = ''
